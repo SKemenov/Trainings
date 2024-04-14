@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TrainingPlanView: View {
     @StateObject var viewModel = MockViewModel()
+    // swiftlint:disable:next attributes
     @Environment(\.layoutDirection) var layoutDirection
 
     var body: some View {
@@ -48,13 +49,9 @@ struct TrainingPlanView: View {
                 .padding(.top, 18)
                 .gesture(DragGesture(minimumDistance: 30.0, coordinateSpace: .local)
                     .onEnded { value in
-                        switch value.translation.width {
-                        case ...0: layoutDirection == .leftToRight
-                            ? viewModel.selectNextWeek()
-                            : viewModel.selectPreviousWeek()
-                        case 0...: layoutDirection == .leftToRight
-                            ? viewModel.selectPreviousWeek()
-                            : viewModel.selectNextWeek()
+                        switch (value.translation.width, layoutDirection) {
+                        case (...0, .leftToRight), (0..., .rightToLeft): viewModel.selectNextWeek()
+                        case (...0, .rightToLeft), (0..., .leftToRight): viewModel.selectPreviousWeek()
                         default: break
                         }
                     }

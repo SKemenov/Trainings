@@ -145,6 +145,12 @@
             "value" : "ven"
           }
         },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "יום ו׳"
+          }
+        },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
@@ -303,6 +309,12 @@
             "value" : "lun"
           }
         },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "יום ב׳"
+          }
+        },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
@@ -349,13 +361,13 @@
       "localizations" : {
         "es" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : ""
           }
         },
         "pt-PT" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : ""
           }
         }
@@ -371,7 +383,7 @@
         },
         "es" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : ""
           }
         },
@@ -389,7 +401,7 @@
         },
         "pt-PT" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : ""
           }
         }
@@ -449,6 +461,12 @@
             "value" : "sam"
           }
         },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "יום ש׳"
+          }
+        },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
@@ -462,31 +480,31 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : ""
+            "value" : "Datum auswählen"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : ""
+            "value" : "Seleccione fecha"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : ""
+            "value" : "Sélectionner la date"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : ""
+            "value" : "בחר תאריך"
           }
         },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : ""
+            "value" : "Selecione a data"
           }
         }
       }
@@ -545,6 +563,12 @@
             "value" : "dim"
           }
         },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "יום א׳"
+          }
+        },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
@@ -599,6 +623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "jeu"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "יום ה׳"
           }
         },
         "pt-PT" : {
@@ -663,6 +693,12 @@
             "value" : "mar"
           }
         },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "יום ג׳"
+          }
+        },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
@@ -689,6 +725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "mer"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "יום ד׳"
           }
         },
         "pt-PT" : {
