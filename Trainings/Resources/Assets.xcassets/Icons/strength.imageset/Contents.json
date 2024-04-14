@@ -1,0 +1,29 @@
+{
+  "images" : [
+    {
+      "filename" : "strength.png",
+      "idiom" : "universal",
+      "language-direction" : "left-to-right",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "strength@2x.png",
+      "idiom" : "universal",
+      "language-direction" : "left-to-right",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "strength@3x.png",
+      "idiom" : "universal",
+      "language-direction" : "left-to-right",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "template-rendering-intent" : "template"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "images" : [
+    {
+      "filename" : "longRun.png",
+      "idiom" : "universal",
+      "language-direction" : "left-to-right",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "longRun@2x.png",
+      "idiom" : "universal",
+      "language-direction" : "left-to-right",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "longRun@3x.png",
+      "idiom" : "universal",
+      "language-direction" : "left-to-right",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "template-rendering-intent" : "template"
+  }
+}
