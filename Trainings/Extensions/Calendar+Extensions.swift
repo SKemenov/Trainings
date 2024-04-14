@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+extension Calendar {
+    static let iso8601 = Calendar(identifier: .iso8601)
+}

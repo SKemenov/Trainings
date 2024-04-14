@@ -5,4 +5,8 @@
 //  Created by Sergey Kemenov on 14.04.2024.
 //
 
-import Foundation
+import SwiftUI
+
+extension Color {
+    static let hLightGray = Color.primary.opacity(0.40)
+}
