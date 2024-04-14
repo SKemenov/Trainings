@@ -7,21 +7,129 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E934A4092BCC058A003FD046 /* Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934A4082BCC058A003FD046 /* Training.swift */; };
+		E934A40B2BCC05CA003FD046 /* TrainingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934A40A2BCC05CA003FD046 /* TrainingType.swift */; };
+		E934A40E2BCC0F49003FD046 /* Calendar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934A40D2BCC0F49003FD046 /* Calendar+Extensions.swift */; };
+		E934A4102BCC0F9E003FD046 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934A40F2BCC0F9E003FD046 /* Date+Extensions.swift */; };
+		E934A4122BCC0FFB003FD046 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934A4112BCC0FFB003FD046 /* Color+Extensions.swift */; };
+		E934A4142BCC103B003FD046 /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934A4132BCC103B003FD046 /* Font+Extensions.swift */; };
+		E934A4162BCC105E003FD046 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934A4152BCC105E003FD046 /* Double+Extensions.swift */; };
+		E934A4252BCC159B003FD046 /* MockViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934A4242BCC159B003FD046 /* MockViewModelTests.swift */; };
+		E934A4272BCC19A9003FD046 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E934A4262BCC19A9003FD046 /* Localizable.xcstrings */; };
+		E934A42F2BCC1CAE003FD046 /* TrainingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E934A42E2BCC1CAE003FD046 /* TrainingsUITests.swift */; };
 		E985341F2BC704E400AE7189 /* TrainingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E985341E2BC704E400AE7189 /* TrainingsApp.swift */; };
 		E98534212BC704E400AE7189 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98534202BC704E400AE7189 /* ContentView.swift */; };
 		E98534232BC704E500AE7189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98534222BC704E500AE7189 /* Assets.xcassets */; };
 		E98534262BC704E500AE7189 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98534252BC704E500AE7189 /* Preview Assets.xcassets */; };
+		E9A11C4B2BC90F2700C5040C /* TrainingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A11C4A2BC90F2700C5040C /* TrainingRowView.swift */; };
+		E9A11C4D2BC91A4100C5040C /* HankenGrotesk.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9A11C4C2BC91A4100C5040C /* HankenGrotesk.ttf */; };
+		E9A11C4E2BC9319300C5040C /* SharpGrotesk.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9F129022BC874D600D5B575 /* SharpGrotesk.ttf */; };
+		E9A1E6202BC9D38400141E96 /* SharpGroteskPETrialBook-20.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9A1E61A2BC9D38400141E96 /* SharpGroteskPETrialBook-20.ttf */; };
+		E9A1E6212BC9D38400141E96 /* SharpGroteskPETrialMedium-19.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9A1E61B2BC9D38400141E96 /* SharpGroteskPETrialMedium-19.ttf */; };
+		E9A1E6222BC9D38400141E96 /* SharpGroteskPETrialMedium-20.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9A1E61C2BC9D38400141E96 /* SharpGroteskPETrialMedium-20.ttf */; };
+		E9A1E6232BC9D38400141E96 /* SharpGroteskPETrialLight-19.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9A1E61D2BC9D38400141E96 /* SharpGroteskPETrialLight-19.ttf */; };
+		E9A1E6242BC9D38400141E96 /* SharpGroteskPETrialBook-19.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9A1E61E2BC9D38400141E96 /* SharpGroteskPETrialBook-19.ttf */; };
+		E9A1E6252BC9D38400141E96 /* SharpGroteskPETrialLight-20.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9A1E61F2BC9D38400141E96 /* SharpGroteskPETrialLight-20.ttf */; };
+		E9A5325C2BC9CBBD0026CB83 /* SharpGroteskPETrialBook-18.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9A5325B2BC9CBBD0026CB83 /* SharpGroteskPETrialBook-18.ttf */; };
+		E9AEC3272BC9CEFF00133451 /* SharpGroteskPETrialBook-21.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9AEC3262BC9CEFF00133451 /* SharpGroteskPETrialBook-21.ttf */; };
+		E9AEC3292BC9CF0E00133451 /* SharpGroteskPETrialLight-18.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9AEC3282BC9CF0E00133451 /* SharpGroteskPETrialLight-18.ttf */; };
+		E9AEC32B2BC9CF1C00133451 /* SharpGroteskPETrialLight-21.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9AEC32A2BC9CF1C00133451 /* SharpGroteskPETrialLight-21.ttf */; };
+		E9AEC32D2BC9CF2900133451 /* SharpGroteskPETrialMedium-18.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9AEC32C2BC9CF2900133451 /* SharpGroteskPETrialMedium-18.ttf */; };
+		E9AEC32F2BC9CF3700133451 /* SharpGroteskPETrialMedium-21.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9AEC32E2BC9CF3700133451 /* SharpGroteskPETrialMedium-21.ttf */; };
+		E9BD8ABA2BC7C09600E9F554 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD8AB92BC7C09600E9F554 /* WeekView.swift */; };
+		E9BD8ABD2BC7C2BB00E9F554 /* Weekdays.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD8ABC2BC7C2BB00E9F554 /* Weekdays.swift */; };
+		E9D362C62BC9BC4400E7F75B /* SharpGroteskPETrialBook-10.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9D362C12BC9BC4400E7F75B /* SharpGroteskPETrialBook-10.ttf */; };
+		E9D362C72BC9BC4400E7F75B /* SharpGroteskPETrialMedium-16.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9D362C22BC9BC4400E7F75B /* SharpGroteskPETrialMedium-16.ttf */; };
+		E9D362C82BC9BC4400E7F75B /* SharpGroteskPETrialBook-11.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9D362C32BC9BC4400E7F75B /* SharpGroteskPETrialBook-11.ttf */; };
+		E9D362C92BC9BC4400E7F75B /* SharpGroteskPETrialBook-14.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9D362C42BC9BC4400E7F75B /* SharpGroteskPETrialBook-14.ttf */; };
+		E9D362CA2BC9BC4400E7F75B /* SharpGroteskPETrialLight-24.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9D362C52BC9BC4400E7F75B /* SharpGroteskPETrialLight-24.ttf */; };
+		E9D362CC2BC9C93200E7F75B /* SharpGroteskPETrialMedium-24.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9D362CB2BC9C93200E7F75B /* SharpGroteskPETrialMedium-24.ttf */; };
+		E9D362CE2BC9C94300E7F75B /* SharpGroteskPETrialBook-24.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9D362CD2BC9C94300E7F75B /* SharpGroteskPETrialBook-24.ttf */; };
+		E9F129062BC87ABC00D5B575 /* WeekDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F129052BC87ABC00D5B575 /* WeekDayView.swift */; };
+		E9F129092BC87B1F00D5B575 /* MockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F129082BC87B1F00D5B575 /* MockViewModel.swift */; };
+		E9F1290B2BC88D8200D5B575 /* TrainingPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1290A2BC88D8200D5B575 /* TrainingPlanView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E934A41F2BCC146E003FD046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E98534132BC704E400AE7189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E985341A2BC704E400AE7189;
+			remoteInfo = Trainings;
+		};
+		E934A4322BCC1CAE003FD046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E98534132BC704E400AE7189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E985341A2BC704E400AE7189;
+			remoteInfo = Trainings;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		E934A4082BCC058A003FD046 /* Training.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training.swift; sourceTree = "<group>"; };
+		E934A40A2BCC05CA003FD046 /* TrainingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingType.swift; sourceTree = "<group>"; };
+		E934A40D2BCC0F49003FD046 /* Calendar+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+Extensions.swift"; sourceTree = "<group>"; };
+		E934A40F2BCC0F9E003FD046 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		E934A4112BCC0FFB003FD046 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		E934A4132BCC103B003FD046 /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
+		E934A4152BCC105E003FD046 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		E934A41B2BCC146E003FD046 /* TrainingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E934A4242BCC159B003FD046 /* MockViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockViewModelTests.swift; sourceTree = "<group>"; };
+		E934A4262BCC19A9003FD046 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		E934A42C2BCC1CAE003FD046 /* TrainingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E934A42E2BCC1CAE003FD046 /* TrainingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingsUITests.swift; sourceTree = "<group>"; };
 		E985341B2BC704E400AE7189 /* Trainings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trainings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E985341E2BC704E400AE7189 /* TrainingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingsApp.swift; sourceTree = "<group>"; };
 		E98534202BC704E400AE7189 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E98534222BC704E500AE7189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E98534252BC704E500AE7189 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9A11C4A2BC90F2700C5040C /* TrainingRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingRowView.swift; sourceTree = "<group>"; };
+		E9A11C4C2BC91A4100C5040C /* HankenGrotesk.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HankenGrotesk.ttf; sourceTree = "<group>"; };
+		E9A1E61A2BC9D38400141E96 /* SharpGroteskPETrialBook-20.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialBook-20.ttf"; sourceTree = "<group>"; };
+		E9A1E61B2BC9D38400141E96 /* SharpGroteskPETrialMedium-19.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialMedium-19.ttf"; sourceTree = "<group>"; };
+		E9A1E61C2BC9D38400141E96 /* SharpGroteskPETrialMedium-20.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialMedium-20.ttf"; sourceTree = "<group>"; };
+		E9A1E61D2BC9D38400141E96 /* SharpGroteskPETrialLight-19.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialLight-19.ttf"; sourceTree = "<group>"; };
+		E9A1E61E2BC9D38400141E96 /* SharpGroteskPETrialBook-19.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialBook-19.ttf"; sourceTree = "<group>"; };
+		E9A1E61F2BC9D38400141E96 /* SharpGroteskPETrialLight-20.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialLight-20.ttf"; sourceTree = "<group>"; };
+		E9A5325B2BC9CBBD0026CB83 /* SharpGroteskPETrialBook-18.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialBook-18.ttf"; sourceTree = "<group>"; };
+		E9AEC3262BC9CEFF00133451 /* SharpGroteskPETrialBook-21.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialBook-21.ttf"; sourceTree = "<group>"; };
+		E9AEC3282BC9CF0E00133451 /* SharpGroteskPETrialLight-18.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialLight-18.ttf"; sourceTree = "<group>"; };
+		E9AEC32A2BC9CF1C00133451 /* SharpGroteskPETrialLight-21.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialLight-21.ttf"; sourceTree = "<group>"; };
+		E9AEC32C2BC9CF2900133451 /* SharpGroteskPETrialMedium-18.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialMedium-18.ttf"; sourceTree = "<group>"; };
+		E9AEC32E2BC9CF3700133451 /* SharpGroteskPETrialMedium-21.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialMedium-21.ttf"; sourceTree = "<group>"; };
+		E9BD8AB92BC7C09600E9F554 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		E9BD8ABC2BC7C2BB00E9F554 /* Weekdays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekdays.swift; sourceTree = "<group>"; };
+		E9D362C12BC9BC4400E7F75B /* SharpGroteskPETrialBook-10.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialBook-10.ttf"; sourceTree = "<group>"; };
+		E9D362C22BC9BC4400E7F75B /* SharpGroteskPETrialMedium-16.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialMedium-16.ttf"; sourceTree = "<group>"; };
+		E9D362C32BC9BC4400E7F75B /* SharpGroteskPETrialBook-11.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialBook-11.ttf"; sourceTree = "<group>"; };
+		E9D362C42BC9BC4400E7F75B /* SharpGroteskPETrialBook-14.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialBook-14.ttf"; sourceTree = "<group>"; };
+		E9D362C52BC9BC4400E7F75B /* SharpGroteskPETrialLight-24.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialLight-24.ttf"; sourceTree = "<group>"; };
+		E9D362CB2BC9C93200E7F75B /* SharpGroteskPETrialMedium-24.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialMedium-24.ttf"; sourceTree = "<group>"; };
+		E9D362CD2BC9C94300E7F75B /* SharpGroteskPETrialBook-24.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SharpGroteskPETrialBook-24.ttf"; sourceTree = "<group>"; };
+		E9F128FE2BC871C800D5B575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E9F129022BC874D600D5B575 /* SharpGrotesk.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SharpGrotesk.ttf; sourceTree = "<group>"; };
+		E9F129052BC87ABC00D5B575 /* WeekDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayView.swift; sourceTree = "<group>"; };
+		E9F129082BC87B1F00D5B575 /* MockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockViewModel.swift; sourceTree = "<group>"; };
+		E9F1290A2BC88D8200D5B575 /* TrainingPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPlanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E934A4182BCC146E003FD046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E934A4292BCC1CAE003FD046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E98534182BC704E400AE7189 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +140,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E934A40C2BCC0F18003FD046 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E934A40D2BCC0F49003FD046 /* Calendar+Extensions.swift */,
+				E934A40F2BCC0F9E003FD046 /* Date+Extensions.swift */,
+				E934A4112BCC0FFB003FD046 /* Color+Extensions.swift */,
+				E934A4132BCC103B003FD046 /* Font+Extensions.swift */,
+				E934A4152BCC105E003FD046 /* Double+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E934A41C2BCC146E003FD046 /* TrainingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E934A4242BCC159B003FD046 /* MockViewModelTests.swift */,
+			);
+			path = TrainingsTests;
+			sourceTree = "<group>";
+		};
+		E934A42D2BCC1CAE003FD046 /* TrainingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E934A42E2BCC1CAE003FD046 /* TrainingsUITests.swift */,
+			);
+			path = TrainingsUITests;
+			sourceTree = "<group>";
+		};
 		E98534122BC704E400AE7189 = {
 			isa = PBXGroup;
 			children = (
+				E934A4262BCC19A9003FD046 /* Localizable.xcstrings */,
 				E985341D2BC704E400AE7189 /* Trainings */,
+				E934A41C2BCC146E003FD046 /* TrainingsTests */,
+				E934A42D2BCC1CAE003FD046 /* TrainingsUITests */,
 				E985341C2BC704E400AE7189 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				E985341B2BC704E400AE7189 /* Trainings.app */,
+				E934A41B2BCC146E003FD046 /* TrainingsTests.xctest */,
+				E934A42C2BCC1CAE003FD046 /* TrainingsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +192,13 @@
 		E985341D2BC704E400AE7189 /* Trainings */ = {
 			isa = PBXGroup;
 			children = (
+				E9F128FE2BC871C800D5B575 /* Info.plist */,
+				E9F129072BC87B0000D5B575 /* ViewModel */,
+				E9BD8ABB2BC7C2A500E9F554 /* Model */,
+				E9F129042BC876A500D5B575 /* Views */,
 				E985341E2BC704E400AE7189 /* TrainingsApp.swift */,
-				E98534202BC704E400AE7189 /* ContentView.swift */,
-				E98534222BC704E500AE7189 /* Assets.xcassets */,
+				E9BD8AB62BC70C3400E9F554 /* Resources */,
+				E934A40C2BCC0F18003FD046 /* Extensions */,
 				E98534242BC704E500AE7189 /* Preview Content */,
 			);
 			path = Trainings;
@@ -67,9 +212,112 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E9BD8AB62BC70C3400E9F554 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9F128FF2BC8748A00D5B575 /* Fonts */,
+				E98534222BC704E500AE7189 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E9BD8ABB2BC7C2A500E9F554 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9BD8ABC2BC7C2BB00E9F554 /* Weekdays.swift */,
+				E934A4082BCC058A003FD046 /* Training.swift */,
+				E934A40A2BCC05CA003FD046 /* TrainingType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9F128FF2BC8748A00D5B575 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E9D362C12BC9BC4400E7F75B /* SharpGroteskPETrialBook-10.ttf */,
+				E9D362C32BC9BC4400E7F75B /* SharpGroteskPETrialBook-11.ttf */,
+				E9D362C42BC9BC4400E7F75B /* SharpGroteskPETrialBook-14.ttf */,
+				E9D362C52BC9BC4400E7F75B /* SharpGroteskPETrialLight-24.ttf */,
+				E9D362C22BC9BC4400E7F75B /* SharpGroteskPETrialMedium-16.ttf */,
+				E9A5325B2BC9CBBD0026CB83 /* SharpGroteskPETrialBook-18.ttf */,
+				E9D362CB2BC9C93200E7F75B /* SharpGroteskPETrialMedium-24.ttf */,
+				E9D362CD2BC9C94300E7F75B /* SharpGroteskPETrialBook-24.ttf */,
+				E9AEC3262BC9CEFF00133451 /* SharpGroteskPETrialBook-21.ttf */,
+				E9AEC3282BC9CF0E00133451 /* SharpGroteskPETrialLight-18.ttf */,
+				E9AEC32A2BC9CF1C00133451 /* SharpGroteskPETrialLight-21.ttf */,
+				E9AEC32C2BC9CF2900133451 /* SharpGroteskPETrialMedium-18.ttf */,
+				E9AEC32E2BC9CF3700133451 /* SharpGroteskPETrialMedium-21.ttf */,
+				E9A1E61E2BC9D38400141E96 /* SharpGroteskPETrialBook-19.ttf */,
+				E9A1E61A2BC9D38400141E96 /* SharpGroteskPETrialBook-20.ttf */,
+				E9A1E61D2BC9D38400141E96 /* SharpGroteskPETrialLight-19.ttf */,
+				E9A1E61F2BC9D38400141E96 /* SharpGroteskPETrialLight-20.ttf */,
+				E9A1E61B2BC9D38400141E96 /* SharpGroteskPETrialMedium-19.ttf */,
+				E9A1E61C2BC9D38400141E96 /* SharpGroteskPETrialMedium-20.ttf */,
+				E9A11C4C2BC91A4100C5040C /* HankenGrotesk.ttf */,
+				E9F129022BC874D600D5B575 /* SharpGrotesk.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E9F129042BC876A500D5B575 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E98534202BC704E400AE7189 /* ContentView.swift */,
+				E9F1290A2BC88D8200D5B575 /* TrainingPlanView.swift */,
+				E9BD8AB92BC7C09600E9F554 /* WeekView.swift */,
+				E9F129052BC87ABC00D5B575 /* WeekDayView.swift */,
+				E9A11C4A2BC90F2700C5040C /* TrainingRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9F129072BC87B0000D5B575 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E9F129082BC87B1F00D5B575 /* MockViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E934A41A2BCC146E003FD046 /* TrainingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E934A4212BCC146E003FD046 /* Build configuration list for PBXNativeTarget "TrainingsTests" */;
+			buildPhases = (
+				E934A4172BCC146E003FD046 /* Sources */,
+				E934A4182BCC146E003FD046 /* Frameworks */,
+				E934A4192BCC146E003FD046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E934A4202BCC146E003FD046 /* PBXTargetDependency */,
+			);
+			name = TrainingsTests;
+			productName = TrainingsTests;
+			productReference = E934A41B2BCC146E003FD046 /* TrainingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E934A42B2BCC1CAE003FD046 /* TrainingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E934A4342BCC1CAE003FD046 /* Build configuration list for PBXNativeTarget "TrainingsUITests" */;
+			buildPhases = (
+				E934A4282BCC1CAE003FD046 /* Sources */,
+				E934A4292BCC1CAE003FD046 /* Frameworks */,
+				E934A42A2BCC1CAE003FD046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E934A4332BCC1CAE003FD046 /* PBXTargetDependency */,
+			);
+			name = TrainingsUITests;
+			productName = TrainingsUITests;
+			productReference = E934A42C2BCC1CAE003FD046 /* TrainingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		E985341A2BC704E400AE7189 /* Trainings */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E98534292BC704E500AE7189 /* Build configuration list for PBXNativeTarget "Trainings" */;
@@ -77,6 +325,7 @@
 				E98534172BC704E400AE7189 /* Sources */,
 				E98534182BC704E400AE7189 /* Frameworks */,
 				E98534192BC704E400AE7189 /* Resources */,
+				E9DF4F822BCABDF5002FB710 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -97,6 +346,14 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					E934A41A2BCC146E003FD046 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E985341A2BC704E400AE7189;
+					};
+					E934A42B2BCC1CAE003FD046 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E985341A2BC704E400AE7189;
+					};
 					E985341A2BC704E400AE7189 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -109,6 +366,11 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				fr,
+				de,
+				"pt-PT",
+				he,
 			);
 			mainGroup = E98534122BC704E400AE7189;
 			productRefGroup = E985341C2BC704E400AE7189 /* Products */;
@@ -116,35 +378,210 @@
 			projectRoot = "";
 			targets = (
 				E985341A2BC704E400AE7189 /* Trainings */,
+				E934A41A2BCC146E003FD046 /* TrainingsTests */,
+				E934A42B2BCC1CAE003FD046 /* TrainingsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E934A4192BCC146E003FD046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E934A42A2BCC1CAE003FD046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E98534192BC704E400AE7189 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D362C72BC9BC4400E7F75B /* SharpGroteskPETrialMedium-16.ttf in Resources */,
+				E9D362CA2BC9BC4400E7F75B /* SharpGroteskPETrialLight-24.ttf in Resources */,
+				E934A4272BCC19A9003FD046 /* Localizable.xcstrings in Resources */,
+				E9AEC32D2BC9CF2900133451 /* SharpGroteskPETrialMedium-18.ttf in Resources */,
+				E9D362C82BC9BC4400E7F75B /* SharpGroteskPETrialBook-11.ttf in Resources */,
+				E9A1E6242BC9D38400141E96 /* SharpGroteskPETrialBook-19.ttf in Resources */,
+				E9A11C4D2BC91A4100C5040C /* HankenGrotesk.ttf in Resources */,
+				E9A11C4E2BC9319300C5040C /* SharpGrotesk.ttf in Resources */,
+				E9A1E6202BC9D38400141E96 /* SharpGroteskPETrialBook-20.ttf in Resources */,
+				E9AEC32B2BC9CF1C00133451 /* SharpGroteskPETrialLight-21.ttf in Resources */,
+				E9A1E6222BC9D38400141E96 /* SharpGroteskPETrialMedium-20.ttf in Resources */,
+				E9AEC32F2BC9CF3700133451 /* SharpGroteskPETrialMedium-21.ttf in Resources */,
 				E98534262BC704E500AE7189 /* Preview Assets.xcassets in Resources */,
+				E9D362C92BC9BC4400E7F75B /* SharpGroteskPETrialBook-14.ttf in Resources */,
+				E9A1E6232BC9D38400141E96 /* SharpGroteskPETrialLight-19.ttf in Resources */,
+				E9D362C62BC9BC4400E7F75B /* SharpGroteskPETrialBook-10.ttf in Resources */,
+				E9AEC3272BC9CEFF00133451 /* SharpGroteskPETrialBook-21.ttf in Resources */,
+				E9D362CE2BC9C94300E7F75B /* SharpGroteskPETrialBook-24.ttf in Resources */,
+				E9A5325C2BC9CBBD0026CB83 /* SharpGroteskPETrialBook-18.ttf in Resources */,
+				E9D362CC2BC9C93200E7F75B /* SharpGroteskPETrialMedium-24.ttf in Resources */,
+				E9A1E6212BC9D38400141E96 /* SharpGroteskPETrialMedium-19.ttf in Resources */,
 				E98534232BC704E500AE7189 /* Assets.xcassets in Resources */,
+				E9A1E6252BC9D38400141E96 /* SharpGroteskPETrialLight-20.ttf in Resources */,
+				E9AEC3292BC9CF0E00133451 /* SharpGroteskPETrialLight-18.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E9DF4F822BCABDF5002FB710 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif [ -f swiftlint.yml ]; then\n  if which swiftlint >/dev/null; then\n    swiftlint --no-cache --config swiftlint.yml\n  fi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		E934A4172BCC146E003FD046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E934A4252BCC159B003FD046 /* MockViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E934A4282BCC1CAE003FD046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E934A42F2BCC1CAE003FD046 /* TrainingsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E98534172BC704E400AE7189 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E98534212BC704E400AE7189 /* ContentView.swift in Sources */,
+				E934A40B2BCC05CA003FD046 /* TrainingType.swift in Sources */,
+				E9F1290B2BC88D8200D5B575 /* TrainingPlanView.swift in Sources */,
+				E9BD8ABA2BC7C09600E9F554 /* WeekView.swift in Sources */,
+				E9F129062BC87ABC00D5B575 /* WeekDayView.swift in Sources */,
+				E934A4102BCC0F9E003FD046 /* Date+Extensions.swift in Sources */,
+				E9BD8ABD2BC7C2BB00E9F554 /* Weekdays.swift in Sources */,
+				E934A4122BCC0FFB003FD046 /* Color+Extensions.swift in Sources */,
+				E9F129092BC87B1F00D5B575 /* MockViewModel.swift in Sources */,
+				E934A4162BCC105E003FD046 /* Double+Extensions.swift in Sources */,
 				E985341F2BC704E400AE7189 /* TrainingsApp.swift in Sources */,
+				E934A4142BCC103B003FD046 /* Font+Extensions.swift in Sources */,
+				E934A4092BCC058A003FD046 /* Training.swift in Sources */,
+				E9A11C4B2BC90F2700C5040C /* TrainingRowView.swift in Sources */,
+				E934A40E2BCC0F49003FD046 /* Calendar+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E934A4202BCC146E003FD046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E985341A2BC704E400AE7189 /* Trainings */;
+			targetProxy = E934A41F2BCC146E003FD046 /* PBXContainerItemProxy */;
+		};
+		E934A4332BCC1CAE003FD046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E985341A2BC704E400AE7189 /* Trainings */;
+			targetProxy = E934A4322BCC1CAE003FD046 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		E934A4222BCC146E003FD046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LKWW87KA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skemenov.TrainingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trainings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trainings";
+			};
+			name = Debug;
+		};
+		E934A4232BCC146E003FD046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LKWW87KA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skemenov.TrainingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trainings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trainings";
+			};
+			name = Release;
+		};
+		E934A4352BCC1CAE003FD046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LKWW87KA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skemenov.TrainingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trainings;
+			};
+			name = Debug;
+		};
+		E934A4362BCC1CAE003FD046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LKWW87KA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skemenov.TrainingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trainings;
+			};
+			name = Release;
+		};
 		E98534272BC704E500AE7189 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -197,7 +634,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +691,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -274,12 +711,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Trainings/Preview Content\"";
 				DEVELOPMENT_TEAM = 3LKWW87KA9;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trainings/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +726,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.skemenov.Trainings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,12 +744,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Trainings/Preview Content\"";
 				DEVELOPMENT_TEAM = 3LKWW87KA9;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trainings/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,15 +759,35 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.skemenov.Trainings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E934A4212BCC146E003FD046 /* Build configuration list for PBXNativeTarget "TrainingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E934A4222BCC146E003FD046 /* Debug */,
+				E934A4232BCC146E003FD046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E934A4342BCC1CAE003FD046 /* Build configuration list for PBXNativeTarget "TrainingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E934A4352BCC1CAE003FD046 /* Debug */,
+				E934A4362BCC1CAE003FD046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E98534162BC704E400AE7189 /* Build configuration list for PBXProject "Trainings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
