@@ -1,5 +1,5 @@
 //
-//  ViewModel.swift
+//  MockViewModel.swift
 //  Trainings
 //
 //  Created by Sergey Kemenov on 11.04.2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class ViewModel: ObservableObject {
+class MockViewModel: ObservableObject {
     @Published var trainings: [Training]
     @Published var firstDay: Date
     @Published var lastDay: Date
