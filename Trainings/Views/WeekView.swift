@@ -8,31 +8,34 @@
 import SwiftUI
 
 struct WeekView: View {
-    var isEmpty: Bool = false
-    var isSelected: Bool = false
-    var dateDay: String = "22"
-    var dateName: String = "MON"
-    
+    @ObservedObject var viewModel: MockViewModel
+
     var body: some View {
-        HStack(spacing: 8) {
-            ZStack {
-                RoundedRectangle(cornerRadius: 22)
-                    .foregroundColor(isEmpty ? .hDarkGray : .hAccent)
-                .frame(width: 44, height: 72)
-                VStack(spacing: 8) {
-                    Text(dateName)
-                        .font(.hDescription)
-                        .foregroundStyle(.hLightGray)
-                    Text(dateDay)
-                        .font(.hBody)
-                        .foregroundStyle(.white)
+        HStack(spacing: 0) {
+            ForEach(Weekdays.allCases, id: \.self) { weekday in
+                let duration = .oneDayDuration * Double(weekday.rawValue)
+                let thisDay = viewModel.currentWeekMonday.addingTimeInterval(duration)
+                WeekDayView(
+                    day: thisDay,
+                    isEmpty: viewModel.trainings.filter { $0.date.sameDay(thisDay) }.isEmpty,
+                    isSelected: viewModel.selectionOfWeek[weekday.rawValue]
+                )
+                .onTapGesture {
+                    var newState = Array(repeating: false, count: 7)
+                    newState[weekday.rawValue] = true
+                    viewModel.selectionOfWeek = (viewModel.selectionOfWeek == newState)
+                    ? Array(repeating: false, count: 7)
+                    : newState
                 }
             }
-
         }
+    }
+
+    init(viewModel: MockViewModel) {
+        self.viewModel = viewModel
     }
 }
 
 #Preview {
-    WeekView()
+    WeekView(viewModel: MockViewModel())
 }

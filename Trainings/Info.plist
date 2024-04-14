@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SharpGrotesk.ttf</string>
+		<string>HankenGrotesk.ttf</string>
+		<string>SharpGroteskPETrialMedium-16.ttf</string>
+		<string>SharpGroteskPETrialLight-24.ttf</string>
+		<string>SharpGroteskPETrialBook-14.ttf</string>
+		<string>SharpGroteskPETrialBook-11.ttf</string>
+		<string>SharpGroteskPETrialBook-10.ttf</string>
+		<string>SharpGroteskPETrialBook-24.ttf</string>
+		<string>SharpGroteskPETrialMedium-24.ttf</string>
+		<string>SharpGroteskPETrialBook-18.ttf</string>
+		<string>SharpGroteskPETrialBook-21.ttf</string>
+		<string>SharpGroteskPETrialLight-18.ttf</string>
+		<string>SharpGroteskPETrialLight-21.ttf</string>
+		<string>SharpGroteskPETrialMedium-18.ttf</string>
+		<string>SharpGroteskPETrialMedium-21.ttf</string>
+		<string>SharpGroteskPETrialBook-19.ttf</string>
+		<string>SharpGroteskPETrialBook-20.ttf</string>
+		<string>SharpGroteskPETrialLight-19.ttf</string>
+		<string>SharpGroteskPETrialLight-20.ttf</string>
+		<string>SharpGroteskPETrialMedium-19.ttf</string>
+		<string>SharpGroteskPETrialMedium-20.ttf</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>black</string>
+		<key>UIImageName</key>
+		<string>LaunchScreen</string>
+		<key>UIImageRespectsSafeAreaInsets</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

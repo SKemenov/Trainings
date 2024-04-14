@@ -8,32 +8,59 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedTab = 1
+
     var body: some View {
-        VStack(alignment: .leading, spacing: 32) {
-            Text("Training plan")
-                .font(Font.hTitle)
-            HStack {
-                Text("January 2024").font(Font.hHeading)
-                Spacer()
-                Image(.calendar1)
-            }
-            Spacer()
+        TabView(selection: $selectedTab) {
+            Text("Home")
+                .tag(0)
+                .tabItem {
+                    Label {
+                        Text("Home")
+                    } icon: {
+                        Image(.home)
+                    }
+                    .accessibilityIdentifier("HomeTab")
+                }
+
+            TrainingPlanView()
+                .tag(1)
+                .tabItem {
+                    Label {
+                        Text("Plan")
+                    } icon: {
+                        Image(.calendar)
+                    }
+                    .accessibilityIdentifier("PlanTab")
+                }
+
+            Text("Coach")
+                .tag(2)
+                .tabItem {
+                    Label {
+                        Text("Coach")
+                    } icon: {
+                        Image(.coach)
+                    }
+                    .accessibilityIdentifier("CoachTab")
+                }
+
+            Text("Profile")
+                .tag(3)
+                .tabItem {
+                    Label {
+                        Text("Profile")
+                    } icon: {
+                        Image(.profile)
+                    }
+                    .accessibilityIdentifier("ProfileTab")
+                }
         }
-        .padding(.leading, 24)
-        .padding(.trailing, 20)
-        .padding(.top, 32)
+        .font(Font.hCaption)
+        .tint(.hAccent)
     }
 }
 
 #Preview {
     ContentView()
-}
-
-
-extension Font {
-    static let hTitle = Font.custom("SharpGroteskPETrialBook", size: 24)
-    static let hHeading = Font.custom("SharpGroteskPETrialBook", size: 16)
-    static let hBody = Font.custom("SharpGroteskPETrialBook", size: 14)
-    static let hDescription = Font.custom("SharpGroteskPETrialBook", size: 11)
-
 }
